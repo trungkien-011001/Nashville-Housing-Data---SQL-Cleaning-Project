@@ -117,9 +117,9 @@ FROM PortfolioProject.dbo.NashvilleHousingData
 		--Updating converted values into the table
 	UPDATE PortfolioProject.dbo.NashvilleHousingData
 	SET SoldAsVacant = 	CASE WHEN SoldAsVacant = 'N' THEN 'No'
-							 WHEN SoldAsVacant = 'Y' THEN 'Yes'
-							 ELSE SoldAsVacant
-						END
+					WHEN SoldAsVacant = 'Y' THEN 'Yes'
+					ELSE SoldAsVacant
+				END
 
 
 --/* Remove Duplicates */
@@ -127,12 +127,12 @@ WITH CTE AS(
 SELECT *,
 	ROW_NUMBER() OVER(
 		PARTITION BY ParcelID,
-					 PropertyAddress,
-					 SalePrice,
-					 LegalReference,
-					 LandValue,
-					 BuildingValue,
-					 TotalValue
+			PropertyAddress,
+			SalePrice,
+			LegalReference,
+			LandValue,
+			BuildingValue,
+			TotalValue
 		ORDER BY UniqueID) AS rn
 FROM PortfolioProject.dbo.NashvilleHousingData)
 
