@@ -3,12 +3,12 @@ This project is about cleaning data by using SQL queries to standardize columns,
 ## 1. About Project:
 - The dataset contains information about Housing Sales, Sales date, Housing Value,... in Nashville City
 - Data source: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx
-- Platform: MS SQL Sever Management
+- Platform: MS SQL Server Management
 ## 2. Project Aim:
 - To apply data cleaning techniques to make the dataset become cleaned, consistent in data format and type in order to use for later purposes
 ## 3. Step-to-step Process:
 - Collecting data from the data source
-- Importing downloaded data into MS SQL Sever Management Studio
+- Importing downloaded data into MS SQL Server Management Studio
 - Using data cleaning techniques on imported data
 - Exporting a .xlsx file for the after-cleaned data
 ## 4. Data Problems to clean:
