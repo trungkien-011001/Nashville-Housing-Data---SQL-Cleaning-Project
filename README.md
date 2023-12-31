@@ -8,7 +8,7 @@ This project is about cleaning data by using SQL queries to standardize columns,
 - To apply data cleaning techniques to make the dataset become cleaned, consistent in data format and type in order to use for later purposes
 ## 3. Step-to-step Process:
 - Collecting data from the data source
-- Importing downloaded data to MS SQL Sever Management Studio
+- Importing downloaded data into MS SQL Sever Management Studio
 - Using data cleaning techniques on imported data
 - Exporting a .xlsx file for the after-cleaned data
 ## 4. Data Problems to clean:
