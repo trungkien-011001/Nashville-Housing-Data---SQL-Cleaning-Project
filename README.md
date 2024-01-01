@@ -1,5 +1,5 @@
 # SQL DATA CLEANING OF NASHVILLE HOUSING DATASET
-This project is about cleaning data by using SQL queries to standardize columns, update Null values remove duplicates,... for later using
+This project is about cleaning data by using SQL queries to standardize columns, update Null values, remove duplicates,... for later using
 ## 1. About Project:
 - The dataset contains information about Housing Sales, Sales date, Housing Value,... in Nashville City
 - Data source: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx
